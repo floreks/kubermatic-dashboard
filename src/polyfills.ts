@@ -35,6 +35,7 @@ window.Buffer = window.Buffer || require('buffer').Buffer;
 // Add global to window, assigning the value of window itself.
 // eslint-disable-next-line
 (window as any).global = window;
+(window as any).global = window;
 
 // Add global to process. Required by the 'swagger-ui'.
 // eslint-disable-next-line
